@@ -135,7 +135,7 @@ class NTPPacket:
 
 #datos
 serverAddressPort   = ("192.168.1.108", 20001)
-bufferSize          = 1024
+bufferSize          = 123
 
 #crea el paquete
 sndPaquete = NTPPacket()
