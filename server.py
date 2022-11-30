@@ -186,7 +186,7 @@ class WorkThread(threading.Thread):
                 
         
 localIP     = "192.168.1.108"
-localPort   = 20001
+localPort   = 123
 socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 socket.bind((localIP,localPort))
 print ("local socket: ", socket.getsockname())
